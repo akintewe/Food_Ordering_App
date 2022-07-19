@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>128649064680-r4qqr5s9qcl0sfm9mj9vp3c1t6nm627p.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.128649064680-r4qqr5s9qcl0sfm9mj9vp3c1t6nm627p</string>
+	<key>API_KEY</key>
+	<string>AIzaSyALd6wBGeCH8i73d1yprtNKz_PHfECCss0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>128649064680</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.projectNew</string>
+	<key>PROJECT_ID</key>
+	<string>thediner-2ec4c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>thediner-2ec4c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:128649064680:ios:5132312964030da360195d</string>
+</dict>
+</plist>
