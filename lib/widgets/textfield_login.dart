@@ -83,3 +83,32 @@ class _Textfield3State extends State<Textfield3> {
     );
   }
 }
+
+class TextField4 extends StatefulWidget {
+  const TextField4({Key? key}) : super(key: key);
+
+  @override
+  State<TextField4> createState() => _TextField4State();
+}
+
+class _TextField4State extends State<TextField4> {
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.all(20.0),
+      child: Container(
+        child: TextField(
+            decoration: InputDecoration(
+                hintText: 'Search for anything',
+                hintStyle: TextStyle(
+                    color: Colors.black.withOpacity(0.3),
+                    fontWeight: FontWeight.bold),
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(20),
+                ),
+                fillColor: Colors.grey.withOpacity(0.1),
+                filled: true)),
+      ),
+    );
+  }
+}

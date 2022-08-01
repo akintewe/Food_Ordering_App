@@ -337,3 +337,175 @@ class _Scrollview2State extends State<Scrollview2> {
     );
   }
 }
+
+class ScrollView3 extends StatefulWidget {
+  const ScrollView3({Key? key}) : super(key: key);
+
+  @override
+  State<ScrollView3> createState() => _ScrollView3State();
+}
+
+class _ScrollView3State extends State<ScrollView3> {
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      scrollDirection: Axis.horizontal,
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.start,
+        children: [
+          Column(
+            children: [
+              Container(
+                height: MediaQuery.of(context).size.height * 0.2,
+                width: MediaQuery.of(context).size.width * 0.38,
+                decoration: BoxDecoration(
+                  color: Colors.grey,
+                  borderRadius: BorderRadius.circular(20),
+                ),
+              ),
+              myVerticalSpacer(
+                  height: MediaQuery.of(context).size.height * 0.01),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.start,
+                children: [
+                  Text('Lunch pack',
+                      style: TextStyle(
+                        fontWeight: FontWeight.w500,
+                        fontSize: 16,
+                      )),
+                  MyHorizontalSpacer(
+                      width: MediaQuery.of(context).size.width * 0.08),
+                ],
+              ),
+              Row(
+                children: [
+                  Text('N5000',
+                      style: TextStyle(
+                        color: Colors.grey,
+                        fontWeight: FontWeight.bold,
+                      )),
+                  MyHorizontalSpacer(
+                      width: MediaQuery.of(context).size.width * 0.09),
+                ],
+              ),
+            ],
+          ),
+          MyHorizontalSpacer(width: MediaQuery.of(context).size.width * 0.04),
+          Column(
+            children: [
+              Container(
+                height: MediaQuery.of(context).size.height * 0.2,
+                width: MediaQuery.of(context).size.width * 0.38,
+                decoration: BoxDecoration(
+                  color: Colors.grey,
+                  borderRadius: BorderRadius.circular(20),
+                ),
+              ),
+              myVerticalSpacer(
+                  height: MediaQuery.of(context).size.height * 0.01),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.start,
+                children: [
+                  Text('Lunch pack',
+                      style: TextStyle(
+                        fontWeight: FontWeight.w500,
+                        fontSize: 16,
+                      )),
+                  MyHorizontalSpacer(
+                      width: MediaQuery.of(context).size.width * 0.08),
+                ],
+              ),
+              Row(
+                children: [
+                  Text('N5000',
+                      style: TextStyle(
+                        color: Colors.grey,
+                        fontWeight: FontWeight.bold,
+                      )),
+                  MyHorizontalSpacer(
+                      width: MediaQuery.of(context).size.width * 0.09),
+                ],
+              ),
+            ],
+          ),
+          MyHorizontalSpacer(width: MediaQuery.of(context).size.width * 0.04),
+          Column(
+            children: [
+              Container(
+                height: MediaQuery.of(context).size.height * 0.2,
+                width: MediaQuery.of(context).size.width * 0.38,
+                decoration: BoxDecoration(
+                  color: Colors.grey,
+                  borderRadius: BorderRadius.circular(20),
+                ),
+              ),
+              myVerticalSpacer(
+                  height: MediaQuery.of(context).size.height * 0.01),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.start,
+                children: [
+                  Text('Lunch pack',
+                      style: TextStyle(
+                        fontWeight: FontWeight.w500,
+                        fontSize: 16,
+                      )),
+                  MyHorizontalSpacer(
+                      width: MediaQuery.of(context).size.width * 0.08),
+                ],
+              ),
+              Row(
+                children: [
+                  Text('N5000',
+                      style: TextStyle(
+                        color: Colors.grey,
+                        fontWeight: FontWeight.bold,
+                      )),
+                  MyHorizontalSpacer(
+                      width: MediaQuery.of(context).size.width * 0.09),
+                ],
+              ),
+            ],
+          ),
+          MyHorizontalSpacer(width: MediaQuery.of(context).size.width * 0.04),
+          Column(
+            children: [
+              Container(
+                height: MediaQuery.of(context).size.height * 0.2,
+                width: MediaQuery.of(context).size.width * 0.38,
+                decoration: BoxDecoration(
+                  color: Colors.grey,
+                  borderRadius: BorderRadius.circular(20),
+                ),
+              ),
+              myVerticalSpacer(
+                  height: MediaQuery.of(context).size.height * 0.01),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.start,
+                children: [
+                  Text('Lunch pack',
+                      style: TextStyle(
+                        fontWeight: FontWeight.w500,
+                        fontSize: 16,
+                      )),
+                  MyHorizontalSpacer(
+                      width: MediaQuery.of(context).size.width * 0.08),
+                ],
+              ),
+              Row(
+                children: [
+                  Text('N5000',
+                      style: TextStyle(
+                        color: Colors.grey,
+                        fontWeight: FontWeight.bold,
+                      )),
+                  MyHorizontalSpacer(
+                      width: MediaQuery.of(context).size.width * 0.09),
+                ],
+              ),
+            ],
+          )
+        ],
+      ),
+    );
+  }
+}

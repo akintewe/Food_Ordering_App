@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:project_new/screens/food_%20screens/Spagg_meatballs.dart';
 import 'package:project_new/widgets/sizedbox.dart';
 
 class ScrollView1 extends StatefulWidget {
@@ -21,14 +22,22 @@ class _ScrollView1State extends State<ScrollView1> {
               Stack(
                 children: [
                   Positioned(
-                    child: Container(
-                      height: MediaQuery.of(context).size.height * 0.25,
-                      width: MediaQuery.of(context).size.width * 0.9,
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(20),
-                          image: DecorationImage(
-                              image: AssetImage('assets/images/food.jpeg'),
-                              fit: BoxFit.fill)),
+                    child: GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => SpaggMeatball()));
+                      },
+                      child: Container(
+                        height: MediaQuery.of(context).size.height * 0.25,
+                        width: MediaQuery.of(context).size.width * 0.9,
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(20),
+                            image: DecorationImage(
+                                image: AssetImage('assets/images/food.jpeg'),
+                                fit: BoxFit.fill)),
+                      ),
                     ),
                   ),
                   Positioned(
@@ -62,7 +71,7 @@ class _ScrollView1State extends State<ScrollView1> {
                 children: [
                   Text('Spagg and Meatballs',
                       style: TextStyle(
-                        color: Colors.black,
+                        color: Theme.of(context).iconTheme.color,
                         fontWeight: FontWeight.bold,
                         fontSize: 20,
                       )),
@@ -165,7 +174,7 @@ class _ScrollView1State extends State<ScrollView1> {
                 children: [
                   Text('Rice and chicken sauce ',
                       style: TextStyle(
-                        color: Colors.black,
+                        color: Theme.of(context).iconTheme.color,
                         fontWeight: FontWeight.bold,
                         fontSize: 20,
                       )),

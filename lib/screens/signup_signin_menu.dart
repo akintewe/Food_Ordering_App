@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:project_new/screens/loginpage.dart';
 import 'package:project_new/screens/signup.dart';
+import 'package:project_new/widgets/changethemebuttonwidget.dart';
 import 'package:project_new/widgets/sizedbox.dart';
 
 class LoginSignupMenu extends StatefulWidget {
@@ -14,7 +15,6 @@ class _LoginSignupMenuState extends State<LoginSignupMenu> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
       body: Container(
         height: MediaQuery.of(context).size.height,
         width: MediaQuery.of(context).size.width,

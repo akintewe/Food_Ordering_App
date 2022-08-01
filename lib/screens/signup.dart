@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:project_new/screens/homepage.dart';
 import 'package:project_new/screens/introduction4.dart';
+import 'package:project_new/screens/signup_code.dart';
 import 'package:project_new/widgets/sizedbox.dart';
 import 'package:project_new/widgets/textfield_login.dart';
 
@@ -24,7 +25,6 @@ class _SignupState extends State<Signup> {
         child: Container(
           height: MediaQuery.of(context).size.height,
           width: MediaQuery.of(context).size.width,
-          color: Colors.white,
           child: Column(
             children: [
               myVerticalSpacer(
@@ -178,7 +178,7 @@ class _SignupState extends State<Signup> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => Introduction4()));
+                                builder: (context) => SignUpCode()));
                         setState(() {});
                       });
                       setState(() {

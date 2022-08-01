@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:project_new/controller/navigationbutton.dart';
 import 'package:project_new/screens/homepage.dart';
 import 'package:project_new/screens/loginpage.dart';
 import 'package:project_new/widgets/sizedbox.dart';
@@ -107,7 +108,8 @@ class _Introduction4State extends State<Introduction4> {
                                   Navigator.push(
                                       context,
                                       MaterialPageRoute(
-                                          builder: (context) => Homepage()));
+                                          builder: (context) =>
+                                              NavigateControl()));
                                 },
                                 child: Container(
                                   height:
@@ -125,13 +127,13 @@ class _Introduction4State extends State<Introduction4> {
                                           context,
                                           MaterialPageRoute(
                                               builder: (context) =>
-                                                  Homepage()));
+                                                  NavigateControl()));
                                     },
                                     child: Text(
                                       'Yes, share my location',
                                       style: TextStyle(
-                                          color: Colors.white,
                                           fontWeight: FontWeight.w500,
+                                          color: Colors.white,
                                           fontSize: 15),
                                     ),
                                   )),
